@@ -8,7 +8,7 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+
 
 </head>
 <style>
@@ -19,18 +19,6 @@
         background-attachment: fixed;
         margin: 0;
         font-family: 'Lato', sans-serif;
-    }
-
-    .desktop-only {
-        display: block;
-    }
-
-    .mobile-only {
-        display: none;
-    }
-
-    .clear {
-        clear: both;
     }
 
     .hero {
@@ -79,8 +67,7 @@
     }
 
     .textBottom button,
-    .project button,
-    .textUnderLogo button {
+    .project button {
         background-color: white;
         border: 0;
         border-radius: 10px;
@@ -151,73 +138,8 @@
         font-size: 24px;
     }
 
-    @media screen and (max-width: 1547px) {
 
-        .desktop-only {
-            display: none;
-        }
-
-        .mobile-only {
-            display: block;
-        }
-
-        .hero .text1,
-        .hero .text2 {
-            font-size: 50px;
-        }
-
-        .textBottom p {
-            font-size: 18px;
-
-            font-size: initial;
-        }
-
-        .textBottom {
-            position: initial;
-            box-sizing: border-box;
-        }
-
-        .hero {
-            height: initial;
-        }
-
-        .project {
-            height: initial;
-        }
-
-        .project .project_left,
-        .project .project_right {
-            float: none;
-            height: initial;
-            width: 100%;
-        }
-
-        .project.flip .project_left,
-        .project.flip .project_right {
-            float: none;
-        }
-
-        .project .project_meta {
-            position: initial;
-            transform: none;
-        }
-
-        .section_title {
-            font-size: 50px;
-            padding: 30px;
-        }
-
-        .hero_center {
-            width: 80%;
-        }
-
-        .textUnderLogo {
-            background: black;
-            color: white;
-            padding: 20px;
-            margin: 0 10px 10px 10px;
-        }
-    }
+    @media screen adn (max-width: 1547px) {}
 </style>
 
 <body>
@@ -249,21 +171,7 @@
         <div class="clear"></div>
     </div>
 
-    <div class="textUnderLogo mobile-only">
-        Image
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae quam purus. Sed ornare nunc a
-            lacus elementum, eu sollicitudin massa placerat. In neque libero, dignissim lacinia leo ac,
-            scelerisque
-            feugiat turpis. Curabitur at finibus nisi. Fusce vel facilisis ex, et condimentum leo. Suspendisse
-            potenti. Nam ullamcorper ullamcorper velit ac porttitor. Morbi volutpat, urna in placerat imperdiet,
-            purus ex pulvinar ex, in ultricies nisl metus in ligula. Morbi pellentesque vitae elit non
-            dignissim.
-            Curabitur pharetra orci vel risus viverra, non aliquam velit ultricies. Phasellus eget dui sed magna
-            egestas rhoncus a eget sem.
-        </p>
-        <button>Learn more</button>
-    </div>
+
 
     <div class="section_title">
         Portfolio
