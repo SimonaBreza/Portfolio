@@ -42,15 +42,16 @@ body{
 
 .textBottom{
     position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 33px;
+    bottom: 50px;
     text-align: center;
+    margin: 10px;
+
+    
+
 }
 
 .textBottom p{
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .textBottom button, .project button{
@@ -62,7 +63,7 @@ body{
 }
 
 .hero .text1, .hero .text2{
-    font-size: 150px;
+    font-size: 100px;
 }
 
 .section_title{
