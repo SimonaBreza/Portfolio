@@ -36,7 +36,6 @@ body{
     width: 50%;
     height: 100%;
     background-color: black;
-    background-image: url(../img/Portfolio.jpg);
     color: white;
 }
 
@@ -55,7 +54,7 @@ body{
 }
 
 .textBottom button, .project button{
-    background-color: white;
+    background-color: #F3C24E;
     border: 0;
     border-radius: 10px;
     font-size: 18px;
@@ -68,7 +67,7 @@ body{
 
 .section_title{
     background-color: black;
-    color: white;
+    color: #E51A24;
     font-size: 150px;
     padding: 211px 50px;
     margin: 36px 0;
@@ -127,4 +126,9 @@ body{
 
 @media screen adn (max-width: 1547px) {
     
+}
+
+.profileImage {
+    height: 100%;
+    opacity: 60%;
 }
