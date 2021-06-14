@@ -1,0 +1,128 @@
+body{
+    background-color: #d5d5d5;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.hero{
+    height: 100vh;
+}
+
+.hero_left{
+    float: left;
+    width: 20%;
+    height: 100%;
+    text-align: right;
+    padding-right: 5px;
+    box-sizing: border-box;
+}
+
+.hero_center{
+    float: left;
+    width: 30%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    position: relative;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+
+.hero_right{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+
+.textBottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 33px;
+    text-align: center;
+}
+
+.textBottom p{
+    font-size: 24px;
+}
+
+.textBottom button, .project button{
+    background-color: white;
+    border: 0;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 16px 50px;
+}
+
+.hero .text1, .hero .text2{
+    font-size: 150px;
+}
+
+.section_title{
+    background-color: black;
+    color: white;
+    font-size: 150px;
+    padding: 211px 50px;
+    margin: 36px 0;
+}
+
+.project{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    padding: 36px 0;
+    box-sizing: border-box;
+    margin: 36px 0;
+}
+
+.project .project_left{
+    float: left;
+    width: 30%;
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.project.flip .project_left{
+    text-align: right;
+}
+
+.project.flip .project_left{
+    float: right;
+}
+
+.project .project_right{
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+
+.project.flip .project_right{
+    float: right;
+}
+
+.project .project_meta{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 43px;
+}
+
+.project .project_title{
+    font-size: 64px;
+}
+
+.project .project_description{
+    font-size: 24px;
+}
+
+
+@media screen adn (max-width: 1547px) {
+    
+}
