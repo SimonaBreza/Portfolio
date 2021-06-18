@@ -125,6 +125,7 @@ body{
 
 
 .profileImage {
-    height: 100%;
-    opacity: 60%;
+    opacity: 65%;
+    margin-top: 32px;    
+    height: 90%
 }
