@@ -61,7 +61,7 @@ body{
 }
 
 .textBottom button:hover, .project button:hover {
-background-color: cadetblue;
+background-color: rgb(95, 160, 98);
 }
 
 .hero .text1, .hero .text2{
