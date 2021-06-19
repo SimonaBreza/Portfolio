@@ -42,13 +42,13 @@ body{
 .textBottom{
     position: absolute;
     bottom: 50px;
-    text-align: center;
+    text-align: left;
     margin: 10px;       
 
 }
 
 .textBottom p{
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .textBottom button, .project button{
@@ -148,9 +148,41 @@ background-color: rgb(95, 160, 98);
 
 a {
     text-decoration: underline;
-    }
+        }
 
     a:hover {
         color: darkgoldenrod;
     }
 
+.more_Projects{
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin-top: none;
+    
+    
+}
+
+#moreProjectsLink {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+
+#moreProjectsLink:hover{
+    color: yellow;
+}
+
+.horizonWeatherApp {
+    width: 75%;
+    margin-left: 36px;
+    margin-bottom: 30px;
+    
+}
+
+  
+    
