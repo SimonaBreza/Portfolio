@@ -184,5 +184,15 @@ a {
     
 }
 
+.socialMedia .project_meta{
+    background-color: blanchedalmond;
+}
+
+.logo{
+    height: 45px;
+    align-items: center;
+    -webkit-filter: grayscale(100%)
+    opacity(60%)
+}
   
     
