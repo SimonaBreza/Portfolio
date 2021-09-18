@@ -1,6 +1,6 @@
 body{
     background-color: #d5d5d5;
-    background-image: url(../img/Background.jpg);
+    background-image: url(../img/Bg\ 3.jpg);
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
@@ -70,7 +70,7 @@ background-color: rgb(95, 160, 98);
 .section_title{
     background-color: black;
     color: #E51A24;
-    font-size: 150px;
+    font-size: 100px;
     padding: 211px 50px;
     margin: 36px 0;
 }
@@ -81,7 +81,7 @@ background-color: rgb(95, 160, 98);
     height: 100vh;
     padding: 36px 0;
     box-sizing: border-box;
-    margin: 36px 0;
+    margin: 0px 0;
 }
 
 .project .project_left{
@@ -118,7 +118,7 @@ background-color: rgb(95, 160, 98);
 }
 
 .project .project_title{
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .project .project_description{
@@ -127,7 +127,7 @@ background-color: rgb(95, 160, 98);
 
 
 .profileImage {
-    opacity: 80%;
+    opacity: 75%;
     margin-top: 32px;    
     height: 90%   
     
@@ -148,11 +148,21 @@ background-color: rgb(95, 160, 98);
 
 a {
     text-decoration: underline;
+    color: #676767
         }
 
     a:hover {
         color: darkgoldenrod;
     }
+
+#socialMediaLinkedin { 
+    text-decoration: none;
+    
+}
+
+a:hover #socialMediaLinkedin {
+    filter: none;
+}
 
 .more_Projects{
     background-color: black;
@@ -188,11 +198,11 @@ a {
     background-color: blanchedalmond;
 }
 
-.logo{
-    height: 45px;
-    align-items: center;
-    -webkit-filter: grayscale(100%)
-    opacity(60%)
+.socialMediaIcons{
+    height: 26px;
+    margin-right: 15px;
+    filter: grayscale(100%)
+    opacity(50%)
 }
   
     
