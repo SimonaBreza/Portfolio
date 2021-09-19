@@ -1,0 +1,121 @@
+body{
+    background-color: #000000;
+        background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.hero{
+    height: 100vh;
+}
+
+.hero_left{
+    float: left;
+    width: 15%;
+    height: 100%;
+    text-align: right;   
+    box-sizing: border-box;
+    color:#FFC700;
+
+}
+
+.hero_center{
+    float: left;
+    width: 30%;
+    height: 100%;
+    background-color:#1C1C1C;
+    color: white;
+    position: relative;
+    
+    box-sizing: border-box;
+    
+}
+
+.hero_right{
+    float: left;
+    width: 55%;
+    height: 100%;
+    background-color:#1C1C1C;
+    color: white;
+}
+
+.textBottom{
+    position: absolute;
+    bottom: 50px;
+    text-align: left;
+    margin: 10px;       
+
+}
+
+.hero .text1, .hero .text2, .hero .text3{
+    font-size: 50px;
+}
+
+.splitText{
+    margin-top: 120px;
+}
+
+#brainsterCo {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#brainsterCo:hover{
+    color:#FFC700 ;
+}
+
+.shumLogo {
+   margin-top: 50px;
+}
+
+.task{
+    margin-top: 30px;   
+    background-color:#1C1C1C;
+    color: white;
+    font-size: 70px;
+    height: 50vh;
+    padding: 100px;   
+  
+}
+
+.tittle{
+    width: 100%;
+    margin-bottom: 100px;
+}
+.taskLeft{
+    float: left;
+    width: 50%;
+    height: 100%;
+    font-size: 15px;
+    margin-right: 50px;
+    text-align: right;        
+    box-sizing: border-box;   
+    
+}
+
+.taskRigt{
+    float: left;
+    width: 50%;
+    height: 100%;
+    font-size: 100px;    
+    margin-right: 50px;   
+    box-sizing: border-box;
+    background-color: #1C1C1C;
+   
+}
+
+.approach{
+  
+    background-color:#1C1C1C;
+    color: white;
+    font-size: 70px;
+    height: 50vh;
+    padding: 100px; 
+}
+
+.approachTittle{
+    color: white;
+    font-size: 70px;
+}
+
