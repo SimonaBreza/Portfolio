@@ -151,9 +151,6 @@ a:hover {
     
 }
 
-a:hover #socialMediaLinkedin {
-    filter: none;
-}
 
 .more_Projects{
     background-color: black;
@@ -196,6 +193,11 @@ a:hover #socialMediaLinkedin {
     opacity(50%)
 }
 
+.socialMediaIcons:hover{
+    filter: grayscale(0%) 
+
+}
+
 .openPlayer {
   
     color: rgb(196, 196, 196);
@@ -213,4 +215,49 @@ a:hover #socialMediaLinkedin {
         color: black;       
         background-color: darkgoldenrod  
          
+}
+
+.footer{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+
+}
+
+.footer .left {
+    background-color: black;
+    height: 50%;
+    float: left;
+    width: 33%
+    
+
+}
+
+.footer .center {
+    float: left;
+    height: 50%;
+    width: 33.3%;
+}
+
+.footer .right {
+    float: left;
+    width: 33%;
+    height: 50%;
+}
+
+.footer{
+    background-color: black;
+    color: #E51A24;
+    font-size: 20px;
+    padding: 211px 150px;
+    margin: 36px 0;
+    text-align: center;
+}
+
+.footerText{
+    color: white;
+    padding-top: 40px;
+    font-size: 18px;
+    font-variant: small-caps;
+    opacity: 60%;
 }
