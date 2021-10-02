@@ -7,6 +7,10 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+.mobile-only{
+    display: none;
+}
+
 .hero{
     height: 100vh;
 }
@@ -260,4 +264,61 @@ a:hover {
     font-size: 18px;
     font-variant: small-caps;
     opacity: 60%;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .mobile-only{
+        display: block;
+    }
+
+    .desktop-only{
+        display: none;
+    }
+
+    .hero .text1, .hero .text2{
+        font-size: 50px;
+    }
+
+    .textBottom p{
+    
+        font-size: initial;
+    }
+
+    .hero_center{
+        width: 80%;
+    }
+
+    .hero{
+        height: initial;
+    }
+
+    .project{
+        height: initial;
+    }
+
+    .project.project.flip .project_left, .project.flip .project_right{
+        float: none;
+    }
+
+    .project .project_meta{
+        position: initial;
+        transform: none;
+    }
+
+    .section_title{
+        font-size: 50px;
+        padding: 30px;
+    }
+
+    .profileImage {
+        opacity: 100%;           
+        background-color: black;
+        padding: 30px;
+        box-sizing: border-box;
+        width: 100%;
+
+        
+    }
+    
 }
