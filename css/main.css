@@ -280,15 +280,14 @@ a:hover {
         font-size: 50px;
     }
 
-    .textBottom p{
-    
-        font-size: initial;
+    .hero_left{
+        width: 20%;
     }
 
     .hero_center{
-        width: 80%;
+        width:80%;
     }
-
+ 
     .hero{
         height: initial;
     }
@@ -309,6 +308,7 @@ a:hover {
     .section_title{
         font-size: 50px;
         padding: 30px;
+        margin: none;
     }
 
     .profileImage {
@@ -320,5 +320,16 @@ a:hover {
 
         
     }
+
+    .textUnderLogo p {
+        background-color: black;
+        color: white;
+        padding: 30px;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    
     
 }
