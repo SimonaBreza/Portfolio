@@ -228,26 +228,6 @@ a:hover {
 
 }
 
-.footer .left {
-    background-color: black;
-    height: 50%;
-    float: left;
-    width: 33%
-    
-
-}
-
-.footer .center {
-    float: left;
-    height: 50%;
-    width: 33.3%;
-}
-
-.footer .right {
-    float: left;
-    width: 33%;
-    height: 50%;
-}
 
 .footer{
     background-color: black;
@@ -296,9 +276,7 @@ a:hover {
         height: initial;
     }
 
-    .project.project.flip .project_left, .project.flip .project_right{
-        float: none;
-    }
+    
 
     .project .project_meta{
         position: initial;
@@ -306,9 +284,10 @@ a:hover {
     }
 
     .section_title{
-        font-size: 50px;
+        font-size: 80px;
         padding: 30px;
         margin: none;
+        
     }
 
     .profileImage {
@@ -327,6 +306,10 @@ a:hover {
         padding: 30px;
         align-items: center;
         text-align: center;
+    }
+
+    .footerText{
+        padding: 30px;
     }
 
 
