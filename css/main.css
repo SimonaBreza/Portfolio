@@ -1,6 +1,6 @@
 body{
     background-color: #d5d5d5;
-    background-image: url(../img/Bg\ 3.jpg);
+    background-image: url(../img/BG\ 4.png);
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
@@ -62,7 +62,7 @@ body{
 
 .section_title{
     background-color: black;
-    color: #E51A24;
+    color: #F1CABC;
     font-size: 100px;
     padding: 211px 50px;
     margin: 36px 0;
@@ -143,16 +143,13 @@ body{
     padding: 80px;
     }
 
-a  
-{
-      text-decoration: underline;
-    color: #676767
 
-}
 
 a:hover {
         color: rgb(255, 255, 255);
     }
+
+
 
 #socialMediaLinkedin { 
     text-decoration: none;
@@ -234,7 +231,7 @@ a:hover {
 
 .footer{
     background-color: black;
-    color: #E51A24;
+    color: #f5dfbb;
     font-size: 20px;
     padding: 211px 150px;
     margin: 36px 0;
