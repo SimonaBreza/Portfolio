@@ -4,7 +4,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif; 
 }
 
 .mobile-only{
@@ -69,8 +69,8 @@ body{
 }
 
 .project{
-    background-color: black;
-    color: white;
+    
+    color: black;
     height: 100vh;
     padding: 36px 0;
     box-sizing: border-box;
@@ -83,10 +83,13 @@ body{
     height: 100%;
     box-sizing: border-box;
     position: relative;
+    
 }
 
 .project.flip .project_left{
     text-align: right;
+    background-color: black;
+    color: white;
 }
 
 .project.flip .project_left{
@@ -137,7 +140,8 @@ body{
 
 .tradersAlloy {
     width:100%;
-}
+    padding: 80px;
+    }
 
 a  
 {
@@ -179,10 +183,9 @@ a:hover {
     color: yellow;
 }
 
-.horizonWeatherApp {
-    width: 75%;
-    margin-left: 36px;
-    margin-bottom: 30px;
+.skipCrowds {
+    width: 100%;
+    padding: 80px;
     
 }
 
