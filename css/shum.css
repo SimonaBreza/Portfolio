@@ -121,6 +121,11 @@ body{
       
 }
 
+.researchParagraph{
+    font-size: 15px;
+    padding-top: 70px;
+}
+
 .teamMembers{
     font-size: smaller;
     color: rgb(211, 211, 211);
@@ -128,4 +133,9 @@ body{
 
 .highlight{
     color: #FFC700;
+}
+
+.playerSymbols{
+    text-align: center;
+    padding-top: 40px;
 }

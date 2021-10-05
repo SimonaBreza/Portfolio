@@ -145,6 +145,10 @@ body{
     padding: 80px;
     }
 
+.project.flip a{
+    text-decoration: none;
+}
+
 
 
 a:hover {
