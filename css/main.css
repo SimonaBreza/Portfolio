@@ -432,6 +432,19 @@ a:hover {
         box-sizing: border-box;
     }
 
+    .vidiVakaLogo{
+      
+        padding: 30px;
+        box-sizing: border-box;
+    }
+
+    .skLogo{
+      
+        padding: 30px;
+        width: 70%;
+        box-sizing: border-box;
+    }
+
     .aboutMe{
         text-align: center;
         padding: 30px;
