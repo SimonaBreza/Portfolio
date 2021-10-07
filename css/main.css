@@ -71,7 +71,7 @@ body{
     color: #2EC4B6;
     font-size: 100px;
     padding: 211px 50px;
-    margin: 36px 0;
+    margin-top: 36px;
 }
 
 .project{
@@ -291,6 +291,43 @@ a:hover {
     opacity: 70%;
 }
 
+.aboutMe{
+    background-color: black;
+    color: white;
+    padding: 100px;
+    border-top: 1PX solid white;
+    border-bottom: 1px solid white;
+    box-sizing: border-box;
+   
+}
+
+.tools{
+    background-color: black;
+    color: white;
+    padding: 50px;
+   
+    box-sizing: border-box;
+   
+}
+
+.devider{
+    background-color: black;
+    color: black;
+}
+
+.tools{
+    text-align: center;
+}
+
+.icons{
+    height:  70px;
+    margin-left: 60px;
+    margin-right: 60px;
+    filter: grayscale(100%);
+    
+}
+    
+
 @media screen and (max-width: 1000px) {
 
     .mobile-only{
@@ -327,8 +364,9 @@ a:hover {
     .section_title{
         font-size: 40px;
         padding: 30px;
-        margin: none;
-        
+        margin-top: 20px;
+        margin-bottom: 2px;
+               
     }
 
     .profileImage {
@@ -347,6 +385,7 @@ a:hover {
         padding: 30px;
         align-items: center;
         text-align: center;
+        margin-bottom: initial;
     }
 
     .footerText{
@@ -358,6 +397,7 @@ a:hover {
         color: white;
         text-align: center;
         padding-top: 30px;
+        margin-bottom: 10px;
     }
 
    .link{
@@ -386,8 +426,18 @@ a:hover {
         box-sizing: border-box;
     }
 
-   
+    .tradersAlloyLogo{
+      
+        padding: 30px;
+        box-sizing: border-box;
+    }
 
-    
-    
+    .aboutMe{
+        text-align: center;
+        padding: 30px;
+    }
+
+    .icons{
+        margin-bottom: 10px;
+    }
 }
