@@ -353,6 +353,39 @@ a:hover {
         padding: 30px;
     }
 
+    .projectTitleMobile{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+   .link{
+       text-align: center;
+       color: gray;  
+    }
+
+    .openPlayerMobile {
+  
+        color: rgb(196, 196, 196);
+        background-color: rgb(0, 0, 0);
+        border: 0;
+        padding: 10px 40px;
+        border-radius: 5px;
+        box-shadow: 0px 5px 9px rgba(37, 37, 37, 0.932);
+        text-decoration: none;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: inline-block;
+        font-variant: initial;
+    }
+
+    .shumLogoMobile{
+        width: 100%;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+
    
 
     
