@@ -13,6 +13,10 @@ body{
     display: none;
 }
 
+.desktop-only{
+    display: block;
+}
+
 .hero{
     height: 100vh;
 }
@@ -317,15 +321,11 @@ a:hover {
         height: initial;
     }
 
-    
-
-    .project .project_meta{
-        position: initial;
-        transform: none;
-    }
+   
+   
 
     .section_title{
-        font-size: 80px;
+        font-size: 40px;
         padding: 30px;
         margin: none;
         
@@ -353,6 +353,7 @@ a:hover {
         padding: 30px;
     }
 
+   
 
     
     
