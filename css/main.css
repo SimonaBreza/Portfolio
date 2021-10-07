@@ -1,11 +1,13 @@
 body{
     background-color: #d5d5d5;
-    background-image: url(../img/BG\ 7.jpg);
+    background-image: url(../img/BG\ 7.jpg); 
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
     font-family: 'Lato', sans-serif; 
 }
+
+
 
 .mobile-only{
     display: none;
@@ -77,14 +79,30 @@ body{
     margin: 0px 0;
 }
 
+.project a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight:lighter;
+    font-variant: small-caps;
+    
+
+}
+
+.ptoject a:hover{
+    color: white;
+}
+
 .project .project_left{
     float: left;
     width: 30%;
     height: 100%;
     box-sizing: border-box;
     position: relative;
+    background-color: black;
     
 }
+
+
 
 .project.flip .project_left{
     text-align: right;
@@ -102,6 +120,15 @@ body{
     height: 100%;
 }
 
+.project .project_right1{
+    float: left;
+    width: 70%;
+    height: 100%;
+    padding: 43px;
+    background-color: black;
+    box-sizing: border-box;
+}
+
 .project.flip .project_right{
     float: right;
 }
@@ -110,13 +137,14 @@ body{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    padding: 43px;
+    padding-left: 35px;
+    padding-right: 35px;
     background-color: black;
     color: white;
 }
 
 .project .project_title{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .project .project_description{
@@ -219,6 +247,7 @@ a:hover {
     text-decoration: none;
     margin-top: 150px;
     display: inline-block;
+    font-variant: initial;
 }
 
 .openPlayer:hover{
