@@ -188,10 +188,23 @@ body{
 }
 
 .user{
-    padding: 30px;
+    
     width: 100%;    
     align-items: center;
 }
+
+
+
+#myDIV {
+    border: 1px solid black;
+    width: 300px;
+    color: rgb(247, 247, 247);
+    animation: mymove 5s infinite;
+  }
+  
+  @keyframes mymove {
+    50% {color: #FFC700;}
+  }
 
 @media screen and (max-width: 1000px) {
 
