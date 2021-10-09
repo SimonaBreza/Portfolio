@@ -113,6 +113,15 @@ body{
     padding: 100px; 
 }
 
+.section1{
+  
+    background-color:#1C1C1C;
+    color: white;
+    font-size: 70px;
+    height: 80vh;
+    padding: 100px;
+}
+
 .circles{
     padding: 20px;
 }
@@ -190,7 +199,8 @@ body{
 .user{
     
     width: 100%;    
-    align-items: center;
+    padding-bottom: 150px;
+    box-sizing: border-box;
 }
 
 
@@ -206,6 +216,9 @@ body{
     50% {color: #FFC700;}
   }
 
+.paragraph{
+    font-size: initial;
+}
 
 @media screen and (max-width: 1000px) {
 
