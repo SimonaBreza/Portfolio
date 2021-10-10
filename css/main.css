@@ -1,10 +1,10 @@
 body{
     background-color: #d5d5d5;
-    background-image: url(../img/BG\ 7.jpg); 
+    background-image: url(../img/BG\ 5.jpg); 
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
-    font-family: 'Lato', sans-serif; 
+    font-family: 'Raleway', sans-serif; 
 }
 
 
@@ -35,7 +35,7 @@ body{
     width: 30%;
     height: 100%;
     background-color: black;
-    color: white;
+    color:#EC3806;
     position: relative;
     padding-left: 5px;
     box-sizing: border-box;
@@ -47,23 +47,27 @@ body{
     height: 100%;
     background-color: black;
     color: white;
+    
 }
 
 .textBottom{
     position: absolute;
     bottom: 50px;
     text-align: left;
-    margin: 10px;       
+    margin: 10px; 
+    color: rgb(255, 255, 255); 
+    font-size: 1px;    
 
 }
 
 .textBottom p{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 
 .hero .text1, .hero .text2{
     font-size: 100px;
+    font-family: Raleway;
 }
 
 .section_title{
@@ -72,6 +76,7 @@ body{
     font-size: 100px;
     padding: 211px 50px;
     margin-top: 36px;
+    font-family: Raleway;
 }
 
 .project{
@@ -81,6 +86,7 @@ body{
     padding: 36px 0;
     box-sizing: border-box;
     margin: 0px 0;
+    
 }
 
 .project a{
@@ -124,10 +130,10 @@ body{
     height: 100%;
 }
 
-.project_right:hover{
-    background-color: #091257;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-}
+/* .project_right:hover{
+    background-color: #000000;
+    
+} */
 
 .project .project_right1{
     float: left;
@@ -300,9 +306,9 @@ a:hover {
     background-color: black;
     color: white;
     padding: 100px;
-    border-top: 1PX solid white;
+    border-top : 1PX solid white;
     border-bottom: 1px solid white;
-    box-sizing: border-box;
+    
    
 }
 
