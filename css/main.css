@@ -72,7 +72,7 @@ body{
 
 .section_title{
     background-color: black;
-    color: #2EC4B6;
+    color: #798EDC;
     font-size: 100px;
     padding: 211px 50px;
     margin-top: 36px;
@@ -281,11 +281,15 @@ a:hover {
 
 .footer{
     background-color: black;
-    color: #f5dfbb;
+    color: #ffffff;
     font-size: 20px;
     padding: 211px 150px;
     margin: 36px 0;
     text-align: center;
+}
+
+.thanks{
+    color: #798EDC;
 }
 
 .footerText{
@@ -298,7 +302,7 @@ a:hover {
 
 .copyRights{
     padding-top: 50px;
-    font-size: xx-small;
+    font-size: x-small;
     opacity: 70%;
 }
 
@@ -438,18 +442,21 @@ a:hover {
         width: 100%;
         padding: 30px;
         box-sizing: border-box;
+        width: 80%;
     }
 
     .tradersAlloyLogo{
       
         padding: 30px;
         box-sizing: border-box;
+        width: 50%;
     }
 
     .vidiVakaLogo{
       
         padding: 30px;
         box-sizing: border-box;
+        width: 50%;
     }
 
     .skLogo{
@@ -457,6 +464,7 @@ a:hover {
         padding: 30px;
         width: 70%;
         box-sizing: border-box;
+        width: 50%;
     }
 
     .aboutMe{
@@ -466,5 +474,6 @@ a:hover {
 
     .icons{
         margin-bottom: 10px;
+        height: 40px;
     }
 }
