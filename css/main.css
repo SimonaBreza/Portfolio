@@ -503,4 +503,9 @@ a:hover {
        
         border-top-left-radius: initial;
     }
+
+    .infoMobile{
+        font-size: smaller;
+        padding: 10px;
+    }
 }
