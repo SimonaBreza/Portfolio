@@ -476,4 +476,14 @@ a:hover {
         margin-bottom: 10px;
         height: 40px;
     }
+
+    .footer{
+        padding: 20px;
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+
+    .footerText{
+        font-size: smaller;
+    }
 }
