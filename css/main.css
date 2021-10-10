@@ -124,6 +124,11 @@ body{
     height: 100%;
 }
 
+.project_right:hover{
+    background-color: #091257;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
 .project .project_right1{
     float: left;
     width: 70%;
@@ -328,11 +333,7 @@ a:hover {
     
 }
 
-.slika{
-    width: 30px;
-    height: 30px;
-background-image: url(./img/Icons/figma-logo.png);
-}
+
     
 
 @media screen and (max-width: 1000px) {

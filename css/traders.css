@@ -81,8 +81,25 @@ body{
     color: white;
 }
 
+.subject{
+    background-color: #262626;
+    color: white;
+    padding: 20px;
+    font-size: 70px;
+}
+
 #tradersHoover:hover{
     color: #FF002E;
+}
+
+.section{
+    background-color: #262626;
+}
+
+.descriptionParagraph{
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
 @media screen and (max-width: 1000px) {
@@ -136,6 +153,7 @@ body{
     color: white;
     text-align: center;
     padding: 20px;
+    font-size: smaller;
     }
 
     .smallerParagraph{
@@ -148,5 +166,10 @@ body{
     .tradersLinkMobile{
         color: white;
     }
+
+    .subject{
+        font-size: 50px;
+    }
+
 
 }
