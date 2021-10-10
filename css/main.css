@@ -320,13 +320,11 @@ a:hover {
 }
 
 .icons{
-    /* height:  70px; */
-    /* margin-left: 60px; */
-    /* margin-right: 60px; */
-    /* filter: grayscale(100%); */
-    width: 30px;
-    height: 30px;
-    display: inline-block;
+    height:  70px; 
+    margin-left: 60px; 
+     margin-right: 60px; 
+    filter: grayscale(100%); 
+    
     
 }
 
