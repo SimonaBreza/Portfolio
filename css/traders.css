@@ -6,6 +6,7 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+
 .mobile-only{
     display: none;
 }
@@ -20,7 +21,7 @@ body{
 
 .hero_left{
     float: left;
-    width: 15%;
+    width: 25%;
     height: 100%;
     text-align: right;   
     box-sizing: border-box;
@@ -30,7 +31,7 @@ body{
 
 .hero_center{
     float: left;
-    width: 30%;
+    width: 25%;
     height: 100%;
     background-color:#262626;
     color: white;
@@ -42,7 +43,7 @@ body{
 
 .hero_right{
     float: left;
-    width: 55%;
+    width: 50%;
     height: 100%;
     background-color:#262626;
     color: white;
@@ -82,4 +83,70 @@ body{
 
 #tradersHoover:hover{
     color: #FF002E;
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .mobile-only{
+        display: block;
+    }
+    
+    .desktop-only{
+        display: none;
+    }
+
+    .header{
+        color: #05D5A3;
+        text-align: center;
+        padding: px 20px;
+    }
+
+    .heroMobile{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        
+    
+    }
+
+    .fa-arrow-left{
+        color: #262626;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    .arrow{
+        padding-top: 5px;
+        padding-left: 5px;
+        text-align: left;
+    }
+
+    .paragraph{
+    background-color:#262626;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    }
+
+    .smallerParagraph{
+    background-color:#262626;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    }
+
+    .tradersLinkMobile{
+        color: white;
+    }
+
 }
