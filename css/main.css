@@ -333,8 +333,7 @@ a:hover {
 .slika{
     width: 30px;
     height: 30px;
-
-background-image: url(/img/Icons/figma-logo.png);
+background-image: url(./img/Icons/figma-logo.png);
 }
     
 
