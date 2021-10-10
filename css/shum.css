@@ -300,13 +300,13 @@ body{
 
 #socialMediaMail{
     height: 26px;
-    margin-right: 15px;
+  
    
 }
 
 .socialMediaIcons{
     height: 26px;
-    margin-right: 15px;
+    
     filter: grayscale(100%)
     opacity(50%)
 }
@@ -314,6 +314,16 @@ body{
 .socialMediaIcons:hover{
     filter: grayscale(0%) 
 
+}
+
+.sectionMob{
+    background-color: #262626;
+}
+
+.descriptionParagraph{
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
 @media screen and (max-width: 1000px) {
@@ -360,8 +370,9 @@ body{
 
     .fa-arrow-left{
         color: #262626;
-        font-size: 20px;
+        font-size: 30px;
         text-decoration: none;
+        align-items: initial;
     }
 
     .arrow{
@@ -399,6 +410,24 @@ body{
 
     .aMobile{
         color: white;
+    }
+
+    .projectFooter{
+        padding: 20px;
+        font-size: 12px;
+        margin-bottom: 0;
+        color:white;
+        text-align: center;
+    }
+
+    .socialMediaIcons{
+        margin: initial;
+        align-items: 50%;
+    }
+
+    #moreProjects{
+        text-align: center;
+        padding-right: 0;
     }
 
   
