@@ -242,6 +242,7 @@ body{
 .openPlayer{
     font-size: initial;
     text-align: center;
+    font-family:'Raleway' ;
 }
 
 
@@ -324,6 +325,15 @@ body{
     color: white;
     padding: 20px;
     text-align: center;
+}
+
+.projectFooter{
+    padding: 20px;
+    font-size: 12px;
+    margin-bottom: 0;
+    color:white;
+    text-align: center;
+    background-color: black;
 }
 
 @media screen and (max-width: 1000px) {
@@ -412,14 +422,7 @@ body{
         color: white;
     }
 
-    .projectFooter{
-        padding: 20px;
-        font-size: 12px;
-        margin-bottom: 0;
-        color:white;
-        text-align: center;
-        background-color: black;
-    }
+ 
 
     .socialMediaIcons{
         margin: initial;
